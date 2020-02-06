@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class CsvParser {
 
     public static void main(String[] args) {
-        try{
+     /*   try{
             Path file = Paths.get("src/Data/SEOExample");
             Scanner csvFile = new Scanner(file);
             while(csvFile.hasNextLine()){
@@ -18,5 +18,5 @@ public class CsvParser {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
+    */}
 }
