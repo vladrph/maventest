@@ -18,7 +18,7 @@ public class Main {
       String path = "SEOExample";
       // Scanner reader = new Scanner("SEOExample.csv");
 
-      CSVReader temp = new CSVReader(new FileReader("SEOExample"));
+      CSVReader temp = new CSVReader(new FileReader(path));
 
       String[] SEOExample;  // Creates ann array of values
       while ((SEOExample = temp.readNext()) != null) {
